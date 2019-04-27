@@ -63,3 +63,7 @@ Code improvements and refinements, reporting issues or general suggestions are w
 
 ## License
 This script is distributed under the terms of the GNU General Public License, version 2 or later.
+
+## Tips
+If you appreciate this script, feel free to leave a tip;
+BTC: 1GCkvAg9oG79niQTbh6EH9rPALQDXKyHKK
