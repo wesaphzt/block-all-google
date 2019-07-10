@@ -11,6 +11,7 @@ It works by adding all the downloaded Google IP ranges to the routing table, whi
 Tested on Ubuntu 18.04 only.
 
 Contacts third-party network services to retrieve proxies and IP ranges.
+
 If you don't agree to their respective terms of service (ToS), don't use the script or modify it to suit your needs.
 
 ## Using the script
