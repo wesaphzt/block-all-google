@@ -1,15 +1,17 @@
 # block-all-google.sh
 
 ## Overview
-This BASH (Linux) script aims to simplify the process of cutting Google out of your digital life, whether you're hardcore about your privacy or just curious if you can live without Google!
+This BASH (Linux) script simplifies the process of cutting Google out of your digital life.
 
-Be warned, running this will block all Google services - GMail, YouTube, Google Play, ads, tracking and so on, both the good and the bad.
+This will block all Google services - GMail, YouTube, Google Play, ads, tracking and so on, both good and bad.
 It's worth noting that any sites that depend on Google to serve their content most likely will break, or at a minimum not function properly.
 
 It works by adding all the downloaded Google IP ranges to the routing table, which get routed to localhost and thus stays local to your machine and doesn't reach any Google servers.
 
-This script so far has only been tested on Ubuntu 18.04.
-To be safe, unless you know what you're doing it's not recommended to run this on your primary computer that you need!
+Tested on Ubuntu 18.04 only.
+
+Contacts third-party network services to retrieve proxies and IP ranges.
+If you don't agree to their respective terms of service (ToS), don't use the script or modify it to suit your needs.
 
 ## Using the script
 Using the terminal, navigate to the directory where the script is; e.g;
@@ -61,10 +63,6 @@ Save and exit.
 ## Improvements
 Code improvements and refinements, reporting issues or general suggestions are welcomed, using the issue tracker https://github.com/wesaphzt/block-all-google/issues.
 
-## License
-This script is distributed under the terms of the GNU General Public License, version 2 or later.
-
-## Tips
-If you appreciate this script, feel free to leave a tip;
-
-BTC: 1GCkvAg9oG79niQTbh6EH9rPALQDXKyHKK
+## Unlicense
+Unlicensed.
+See [UNLICENSE](https://github.com/wesaphzt/block-all-google/UNLICENSE) for more information.
